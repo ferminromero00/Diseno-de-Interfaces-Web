@@ -1,0 +1,24 @@
+/*EJERCICIO 3*/
+body {
+    counter-reset: num 0;
+}
+
+
+h2::before {
+    content: "Parte  " counter(num) ": ";
+    counter-increment: num;
+}
+
+h2 {
+    counter-reset: num1;
+}
+
+h3::before {
+    content: counter(num) "."counter(num1) ") ";
+    counter-increment: num1;
+}
+
+
+
+
+

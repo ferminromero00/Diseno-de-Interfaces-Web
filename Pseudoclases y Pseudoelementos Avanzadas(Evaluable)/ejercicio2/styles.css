@@ -1,0 +1,19 @@
+/*EJERCICIO 2*/
+a:visited {
+    color: green;
+}
+
+h2:target::before {
+    color: green;
+    content: ">";
+}
+h2:target {
+    color: green;
+}
+
+
+
+
+
+
+

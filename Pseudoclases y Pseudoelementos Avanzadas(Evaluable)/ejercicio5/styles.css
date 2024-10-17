@@ -1,0 +1,72 @@
+/*EJERCICIO 1*/
+section:nth-of-type(1) li:first-of-type {
+    color: green;
+}
+
+section:nth-of-type(1) li:last-of-type {
+    color: red
+}
+
+/*EJERCICIO 2*/
+section:nth-of-type(2) p:first-of-type {
+    border-top: solid 1px black;
+}
+
+section:nth-of-type(2) p:last-of-type {
+    border-bottom: solid 1px black;
+}
+
+/*EJERCICIO 3*/
+section:nth-of-type(3) ol li:nth-child(even) {
+    color: black;
+    text-decoration: underline;
+}
+
+section:nth-of-type(3) ol li:nth-child(odd) {
+    color: black;
+    text-decoration: line-through;
+}
+
+/*EJERCICIO 5*/
+section:nth-of-type(4) h2:nth-of-type(odd) {
+    text-decoration: underline;
+}
+
+/*EJERCICIO 6*/
+section:nth-of-type(5) strong:first-of-type {
+    font-size: large;
+    text-decoration: underline;
+    color: green;
+}
+
+/*EJERCICIO 6*/
+section:nth-of-type(6) li::first-letter {
+    text-decoration: underline;
+}
+
+/*EJERCICIO 8*/
+strong::before {
+    content: "¡";
+}
+strong::after {
+    content: "!";
+}
+
+/*EJERCICIO 9*/
+section:nth-of-type(8) p::before{
+    content: "- ❤";
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
