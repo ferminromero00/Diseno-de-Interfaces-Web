@@ -1,0 +1,72 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 4;
+    /* Establece 4 columnas */
+    /* Distribuye los elementos uniformemente */
+}
+
+.caja {
+    width: 20%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(224, 221, 221);
+    /* Borde gris por defecto */
+}
+
+/* Estilos para cada caja */
+.roja {
+    box-shadow: -5px -5px rgb(255, 1, 13);
+
+}
+
+.azul {
+    box-shadow: -5px -5px 4px rgb(8, 22, 118);
+
+}
+
+.verde {
+    box-shadow: -6px -6px 0px 6px rgb(0, 255, 4);
+}
+
+.celeste {
+    box-shadow: -6px -6px 6px 4px rgb(105, 202, 218);
+}
+
+.rosa {
+    box-shadow: 0px -0px 3px 1px rgb(255, 0, 251);
+}
+
+.amarilla {
+    box-shadow: 0px -0px 5px 4px yellow
+}
+
+.morada {
+    box-shadow: inset -3px -3px 0px 3px purple;
+}
+
+.turquesa {
+    box-shadow: inset -3px -3px 2px 2px turquoise;
+
+}
+
+.magenta {
+    box-shadow: inset -3px -3px 0px 3px magenta;
+}
+
+.verde_claro {
+    box-shadow: inset -3px -3px 6px 2px rgb(36, 230, 6);
+
+}
+
+.morado_claro {
+    box-shadow: inset 0px -0px 3px 1px rgb(33, 33, 158);
+}
+
+.gris {
+    box-shadow: inset 0px -0px 3px 3px grey;
+
+}
