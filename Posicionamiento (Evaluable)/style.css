@@ -1,0 +1,146 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(175, 175, 175);
+    margin: 0;
+    padding: 20px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: #ffbf49;
+}
+
+.nav {
+    background-color: #33a0e8;
+    display: flex;
+    padding: 18px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: sticky;
+    top: 0;
+    width: 900px;
+}
+
+.menu {
+    position: relative;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 100px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 264px;
+    top: 35.6px;
+}
+
+.menu:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    color: white;
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #333;
+    position: relative;
+    background-color: black;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.submenu a:hover {
+    background-color: #ff6b33;
+    margin: 0;
+    padding: 15px 20px;
+}
+
+.submenu a::before {
+    display: none;
+}
+
+.menu:hover>a {
+    background-color: black;
+    padding: 18px 100px;
+}
+
+.links_lista {
+    display: inline-block;
+    background-color: lightblue;
+    border: 1px solid yellow;
+    padding: 10px 40px;
+    color: black;
+    margin-top: -200px;
+    margin-left: -10px;
+    text-decoration: none;
+}
+
+.links_lista::before {
+    content: "👉 ";
+}
+
+.links_lista:hover {
+    background-color: rgb(177, 241, 177);
+}
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.imagenes img {
+    width: 100px;
+    margin: 15px;
+}
+
+.imagenes img:hover {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+footer a {
+    color: #36a5ef;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+footer a:hover {
+    color: #006196;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
