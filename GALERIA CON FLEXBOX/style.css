@@ -1,0 +1,106 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* GENERAL */
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+/* HEADER */
+header h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+/* SECCIÓN IMÁGENES GALERÍA 1 */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.galeria img {
+    width: 31%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px;
+    border-radius: 8px;
+    border: 0.2px solid rgb(70, 70, 70);
+}
+
+.galeria-lista-izquierda img,
+.galeria-lista-derecha img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px;
+    border-radius: 8px;
+    border: 0.2px solid rgb(70, 70, 70);
+
+}
+
+
+
+/* LISTA GALERÍAS */
+.galeria2 {
+    order: 1;
+}
+
+.galeria3 {
+    order: 2;
+}
+
+.galeria4 {
+    order: 3;
+}
+
+/* Estilos para Galería 2 (derecha) */
+.galeria-lista-derecha {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria-lista-derecha .contenedor-flex {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.galeria-lista-derecha .texto {
+    flex: 2;
+}
+
+.galeria-lista-derecha .imagen {
+    flex: 1.3;
+}
+
+/* Estilos para Galería 3 (imagen a la izquierda) */
+.galeria-lista-izquierda {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria-lista-izquierda .contenedor-flex {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex-direction: row-reverse;
+}
+
+.galeria-lista-izquierda .texto {
+    flex: 2;
+    margin-left: 50px;
+}
+
+.galeria-lista-izquierda .imagen {
+    flex: 1.3;
+}
