@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Zapatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="cabecera">
+        <section class="cabecera__contenido">
+            <article class="cabecera__texto">
+                <h1 class="cabecera__titulo">TIENDA DE ZAPATOS</h1>
+                <h2 class="cabecera__subtitulo">Los mejores precios de toda España</h2>
+            </article>
+            <figure class="cabecera__figura">
+                <img src="fotos/header.jpg" alt="Imagen Cabecera" class="cabecera__imagen">
+            </figure>
+        </section>
+    </header>
+
+    <main>
+        <section class="destacados">
+            <section class="categorias">
+                <h2 class="destacados__titulo">Productos Destacados</h2>
+
+                <h2 class="categorias__titulo">Categorías</h2>
+                <div class="categorias__contenedor">
+                    <div class="categoria">
+                        <i class="fas fa-running categoria__icono"></i>
+                        <h3 class="categoria__titulo">Deportivos</h3>
+                    </div>
+                    <div class="categoria">
+                        <i class="fas fa-shoe-prints categoria__icono"></i>
+                        <h3 class="categoria__titulo">Casuales</h3>
+                    </div>
+                    <div class="categoria">
+                        <i class="fas fa-briefcase categoria__icono"></i>
+                        <h3 class="categoria__titulo">Formales</h3>
+                    </div>
+                </div>
+            </section>
+            <div class="destacados__div">
+                <article class="producto">
+                    <img src="fotos/deportivas.jpg" alt="Zapatilla Deportiva" class="tarjeta-producto__imagen">
+                    <h3 class="tarjeta-producto__titulo">Zapatillas Deportivas</h3>
+                    <p class="tarjeta-producto__precio">89.99€</p>
+                    <button class="tarjeta-producto__boton">Comprar</button>
+                </article>
+                <article class="producto">
+                    <img src="fotos/casual.jpg" alt="Zapatilla Casual" class="tarjeta-producto__imagen">
+                    <h3 class="tarjeta-producto__titulo">Zapatillas Casual</h3>
+                    <p class="tarjeta-producto__precio">69.99€</p>
+                    <button class="tarjeta-producto__boton">Comprar</button>
+                </article>
+                <article class="producto">
+                    <img src="fotos/formales.jpg" alt="Zapatilla Formal" class="tarjeta-producto__imagen">
+                    <h3 class="tarjeta-producto__titulo">Zapatillas Formales</h3>
+                    <p class="tarjeta-producto__precio">99.99€</p>
+                    <button class="tarjeta-producto__boton">Comprar</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <form class="contacto__formulario">
+                <input type="text" placeholder="Nombre" class="contacto__entrada">
+                <input type="email" placeholder="Email" class="contacto__entrada">
+                <textarea placeholder="Mensaje" class="contacto__area-texto"></textarea>
+                <button type="submit" class="contacto__boton">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <div class="footer__seccion">
+                <h3 class="footer__titulo">Contacto</h3>
+                <p>Email: info@tiendazapatos.es</p>
+                <p>Teléfono: 123-456-789</p>
+            </div>
+            <div class="footer__seccion">
+                <h3 class="footer__titulo">Síguenos</h3>
+                <div class="footer__redes">
+                    <a href="#" class="footer__enlace"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="footer__enlace"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__enlace"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer__inferior">
+            <p>&copy; 2024 Tienda de Zapatos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
